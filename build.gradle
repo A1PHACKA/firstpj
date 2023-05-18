@@ -10,6 +10,9 @@ repositories {
 	mavenCentral()
 }
 dependencies {
+	// 28강: PostgreSQL 드라이버 추가!
+	runtimeOnly 'org.postgresql:postgresql'
+
 	// 10강: 롬복 추가
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
